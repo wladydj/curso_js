@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="curso, capacitación, JavaScript">
+    <meta name="description" content="Curso de capacitación en Java y JavaScript">
+    <meta name="author" content="Vladimir Henríquez Ílias">
+    <link rel="stylesheet" crossorigin="" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" href="../ico/armada.ico">
+
+    <title>Taller No.3 | JINA | Capacitación JavaScript</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../js/ie-emulation-modes-warning.js"></script>
+
+    <!-- Custom styles -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/carousel.css" rel="stylesheet">
+    <link href="../css/customstyle.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <h1 class="h1ngheader" id="Title">Datos Oficinas de Atención al Ciudadano A.R.C.</h1>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Navegación Selectiva</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Actividad No.3 | Curso JavaScript</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="../ejercicionodejs">Inicio</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+
+    <!-- Actividad
+    ================================================== -->
+    <!-- Wrap where the reading content of the topics of interest are displayed. -->
+
+    <div class="container actividad"><a name="activities"></a>
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divideracti">
+
+      <div class="row featurette"><a name="activity"></a>
+      	<div class="ngheader">
+      		<h1>Oficinas de atecnión al ciudadano</h1>
+          <p id="parrafo">En esta sección encontrará los datos de las oficinas de atención al ciudadano de Armada Nacional, se mantiene actualizada ne manera automática del endpoint: <a href="https://www.datos.gov.co/Seguridad-y-Defensa/Oficinas-de-Atenci-n-al-Ciudadano-Unidades-Armada/nav4-rbv7">https://www.datos.gov.co/Seguridad-y-Defensa/Oficinas-de-Atenci-n-al-Ciudadano-Unidades-Armada/nav4-rbv7</a></p>
+            
+      	</div>
+
+      	<hr class="featurette-divider-lecturagit">
+
+        <div class="row">
+          <div class="col-md-1 col-md-offset-0 MyDiv">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+          <div id="LocalButton" class="section">
+            <table id="coordenadas">
+              <thead>
+                  <tr>
+                      <th>Nombre Unidad A.R.C.</th>
+                      <th>Nombre del Gestor</th>
+                      <th>Email del Gestor</th>
+                      <th>Dirección de la Unidad</th>
+                      <th>Ciudad</th>
+                      <th>Departamento</th>
+                  </tr>
+              </thead>
+              <tbody id="respuesta">
+
+              </tbody>
+          </table>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      </div>
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/oficinas.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../js/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>
