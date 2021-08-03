@@ -11,7 +11,7 @@
      }).addTo(map);
 
     async function GetLocalidad(){
-        const url_localidad = "http://serviciosgis.catastrobogota.gov.co/otrosservicios/rest/services/educacion/inversion/MapServer/0?f=pjson";		
+        const url_localidad = "https://serviciosgis.catastrobogota.gov.co/otrosservicios/rest/services/educacion/inversion/MapServer/0?f=pjson";		
         let resp='[]';
         document.getElementById("map").style.visibility = "hidden";
         try{
